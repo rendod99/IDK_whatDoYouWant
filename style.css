@@ -1,0 +1,64 @@
+.nav-wrapper {
+    text-align: center;
+    background-color: teal
+}
+.restCol {
+    text-align: center;
+    
+}
+.recCol {
+    text-align: center;
+
+}
+.desCol {
+    text-align: center;
+}
+.dataRender{
+    text-align: center;
+}
+.city{
+    text-align: center;
+}
+
+.appTitle {
+font-size: 35px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: cornsilk;
+}
+
+.appDes {
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    color: sandybrown;
+    
+
+}
+
+body {
+    background-color: lightgreen
+}
+
+.dataRender {
+    margin-top: 20px;
+}
+.pure-menu-item {
+    background-color: lightseagreen;
+    box-shadow: lightslategray;
+    
+}
+#menuLink1 {
+    color: white;
+}
+#recItem {
+    color: white;
+}
+
+.menuStyle {
+    color:white;
+    font-size: 20px;
+}
+
+.menuStyle:hover {
+    background-color:yellow;
+    color:blue;
+}

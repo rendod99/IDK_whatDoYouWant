@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Food Selector</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">        
+</head>
+<body>
+    <nav>
+      <div class="nav-wrapper">
+
+
+        <a href="#" class="appTitle">I Don't Know, What Do You Want?</a>
+
+
+        <ul id="nav-mobile" class="left hide-on-med-and-down"></ul>
+      </div>
+    </nav>
+    <br>
+    <br>
+    <div class="row">
+      <div class="col s2"></div>
+      <div class="col s8 desCol">
+        <h5 class="appDes">Having trouble deciding what to eat? Let us decide for you! Whether looking for a new restaurant, or new recipe to try, we've got you covered!</h5>  
+      </div>
+      <div class="col s2"></div>
+    </div>
+    <br>
+    <br>
+    <div class="row ">
+      <form class="col s3"></form>
+      <form class="col s6">
+        <div class="row">
+          <div class="input-field col s12">
+            <label for="textarea1 cityRest" class="black-text">Enter Your City</label>
+            <textarea id="textarea1" class="materialize-textarea city black-text"></textarea>            
+          </div>
+        </div>
+      </form>
+      <form class="col s3"></form>
+    </div>
+          
+    <br>
+    <br>
+    <div class="row rest">
+      <div class="col s6 restCol">
+        <a class="waves-effect waves-light btn-large btnRest"><i class="material-icons right">local_dining</i>Find Me a Restaurant!</a>
+        <br>
+        <br>
+        <a class='dropdown-trigger btn restCuisine' href='#' data-target='dropdown1'>Have a cuisine in mind?  Pick one!</a>
+        <ul id='dropdown1' class='dropdown-content'>
+          <li><a href="#!" class="restButton restVal">American</a></li>
+          <li><a href="#!" class="restButton restVal">Asian</a></li>
+          <li><a href="#!" class="restButton restVal">Middle Eastern</a></li>
+          <li><a href="#!" class="restButton restVal">Mexican</a></li>
+          <li><a href="#!" class="restButton restVal">Seafood</a></li>
+          <li><a href="#!" class="restButton restVal">Italian</a></li>
+          <li><a href="#!" class="restButton restVal">Pizza</a></li>
+          <li><a href="#!" class="restButton restVal">Breakfast</a></li>
+          <li><a href="#!" class="restButton restVal">Fast Food</a></li>
+        </ul>  
+      </div>
+      <div class="col s6 recCol">
+        <a class="waves-effect waves-light btn-large btnRec"><i class="material-icons right">local_grocery_store</i>Find Me a Recipe!</a>
+        <br>
+        <br>
+        <div class="pure-menu pure-menu-horizontal">
+          <ul class="pure-menu-list">
+              <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover" id="dr">
+                  <a href="#" id="menuLink1" class="pure-menu-link">HAVE A CUISINE IN MIND? PICK ONE!</a>
+                  <ul class="pure-menu-children">
+                      <li class="pure-menu-item">
+                          <a href="#" class="pure-menu-link" id="recItem">Indian</a>
+                      </li>
+                      <li class="pure-menu-item">
+                          <a href="#" class="pure-menu-link" id="recItem">Mexican</a>
+                      </li>
+                      <li class="pure-menu-item">
+                          <a href="#" class="pure-menu-link" id="recItem">Italian</a>
+                      </li>
+                      <li class="pure-menu-item">
+                          <a href="#" class="pure-menu-link" id="recItem">Chinese</a>
+                      </li>
+                      <li class="pure-menu-item">
+                          <a href="#" class="pure-menu-link" id="recItem">American</a>
+                      </li>
+                      <li class="pure-menu-item">
+                          <a href="#" class="pure-menu-link" id="recItem">Bbq</a>
+                      </li>
+                  </ul>
+              </li>
+          </ul>
+      </div>
+      </div>
+      <div class="row dataRow">        
+        <div class="col s12 dataRender"></div>
+      </div>
+      <div class="row">
+        <div class="col s12">
+          <div class="card teal">
+            <div class="card-content white-text">
+              <span class="card-title">History</span>
+              <div class="history"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+            
+      <div class="parallax-container">
+        <div class="parallax">
+          <img src="./asset/pexels-photo-286283.jpeg" alt="" class="responsive-img">
+        </div>
+       </div>    
+
+            
+    
+
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="./script.js"></script>
+
+
+</body>
+</html>
